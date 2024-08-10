@@ -1,4 +1,4 @@
-# SyncMate
+# ♾️SyncMate
 
 SyncMate is an academic management and communication platform designed to enhance the efficiency and productivity of college departments. It integrates features such as a login system, polling system, task prioritization, and automated permission requests, providing a comprehensive solution for both faculty and students.
 
