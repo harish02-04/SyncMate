@@ -1,0 +1,248 @@
+
+  
+  .calender .calendar-base {
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    z-index: -1;
+    color: black;
+  }
+  
+  .calender .year {
+    color:black ;
+    font-size: 30px;
+    float: right;
+    position: relative;
+    right: 75px;
+    top: 20px;
+    font-weight: bold;
+  }
+  
+  .calender .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid #7d7878;
+    border-bottom: 5px solid transparent;
+    float: right;
+    position: relative;
+    right: 90px;
+    top: 36px;
+  }
+  
+  .calender .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #7d7878;
+    border-bottom: 5px solid transparent;
+    float: right;
+    position: relative;
+    left: 20px;
+    top: 36px;
+  }
+  .calender .triangle-left:hover{
+    border-right: 10px solid#4070f4;
+  }
+  .calender .triangle-right:hover{
+    border-left: 10px solid#4070f4;
+  }
+  
+  .calender .month-color {
+    color: black;
+  }
+  .calender .month-hover:hover{
+    color:#27e879 !important;
+  }
+  
+  .calender .months {
+    color: #656363;
+    position: relative;
+    left: 350px;
+    top: 90px;
+    word-spacing: 10px;
+  }
+  
+  .calender .month-line {
+    border-color: #6b6b6b;
+    position: relative;
+    top: 85px;
+    width: 57%;
+    left: 178px;
+  }
+  
+  .calender .days {
+    color: #AAAAAA;
+    position: relative;
+    font-size: 18px;
+    left: 355px;
+    top: 80px;
+    word-spacing: 35px;
+    font-weight: 600;
+  }
+  
+  .calender .num-dates {
+    float: right;
+    position: relative;
+    top: 110px;
+    right: 50px;
+    z-index: 1;
+  }
+  
+  .calender .first-week {
+    margin-bottom: 25px;
+    word-spacing: 55px;
+  }
+  
+  .calender .second-week {
+    margin-bottom: 25px;
+    word-spacing: 53px;
+  }
+  
+  .calender .third-week {
+    margin-bottom: 25px;
+    word-spacing: 58px;
+  }
+  
+  .calender .fourth-week {
+    margin-bottom: 25px;
+    word-spacing: 58px;
+  }
+  
+  .calender .fifth-week {
+    margin-bottom: 25px;
+    word-spacing: 56px;
+  }
+  
+  .calender .sixth-week {
+    margin-bottom: 25px;
+    word-spacing: 55px;
+  }
+  
+  .calender .active-day {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    position: relative;
+    top: 295px;
+    left: 661px;
+  }
+  
+  .calender .white {
+    color: white;
+  }
+  
+  .calender .event-indicator {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #2980B9;
+    position: relative;
+    top: 304px;
+    left: 695px;
+  }
+  
+  .calender .two {
+    position: relative;
+    top: 168px;
+    left: 535px;
+  }
+  
+  .calender .grey {
+    color: #3b3b3e;
+  }
+  
+  .calender .calendar-left {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #4070f4;
+    position: relative;
+    z-index: -1;
+    bottom: 500px;
+    color: white;
+  }
+  
+  .calender .hamburger {
+    position: relative;
+    top: 25px;
+    left: 25px;
+  }
+  
+  .calender .burger-line:hover, .calender .hamburger:hover{
+    background-color:#4070f4 !important;
+  }
+  
+  .calender .burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 15%;
+    margin-bottom: 3px;
+  }
+  
+  .calender .num-date {
+    font-size: 150px;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 700;
+  }
+  
+  .calender .day {
+    width: 50%;
+    margin: 0px auto;
+    font-size: 30px;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .calender .current-events {
+    font-size: 15px;
+    position: relative;
+    margin-left: 25px;
+    bottom: 30px;
+  }
+  
+  .calender .posts {
+    text-decoration: underline dotted;
+  }
+  .calender .posts:hover{
+    color:#4070f4 !important;
+  }
+  
+  .calender .create-event {
+    font-size: 18px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  
+  .calender .event-line {
+    width: 90%;
+  }
+  
+  .calender .add-event {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    border-radius: 50%;
+    border: solid white 2px;
+    position: relative;
+    bottom: 42px;
+    left: 260px;
+  }
+  
+  .calender .add {
+    font-size: 25px;
+    position: relative;
+    left: 4px;
+    bottom: 10px;
+  }
+  
+  .calender .add:hover, .calender .create-event:hover, .calender .add-event:hover{
+    color:#4070f4 !important;
+    border-color: #4070f4 !important;
+  }

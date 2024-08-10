@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.polling{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.polling body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #fff;
+}
+.polling ::selection{
+  color: #4481eb;
+  background: #fff;
+}
+.polling .wrapper{
+  background: #4481eb;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 450px;
+  height:400px;
+  width: 100%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.polling .wrapper header{
+  font-size: 22px;
+  font-weight: 600;
+}
+.polling .wrapper .poll-area{
+  margin:;
+}
+.polling .poll-area label{
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: 2px solid #e6e6e6;
+  transition: all 0.2s ease;
+}
+.polling .poll-area label:hover{
+  border-color: #ddd;
+}
+.polling label.selected{
+  border-color: #6665ee!important;
+}
+.polling label .row{
+  display: flex;
+  pointer-events: none;
+  justify-content: space-between;
+}
+.polling label .row .column{
+  display: flex;
+  align-items: center;
+}
+.polling label .row .circle{
+  height: 19px;
+  width: 19px;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+}
+.polling label.selected .row .circle{
+  border-color: #fff;
+}
+.polling label .row .circle::after{
+  content: "";
+  height: 11px;
+  width: 11px;
+  background: #fff;
+  border-radius: inherit;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  display: none;
+}
+.polling .poll-area label:hover .row .circle::after{
+  display: block;
+  background: #e6e6e6;
+}
+.polling label.selected .row .circle::after{
+  display: block;
+  background: #fff!important;
+}
+.polling label .row span{
+  font-size: 36px;
+  font-weight: 500;
+}
+.polling label .row .percent{
+  display: none;
+}
+.polling label .progress{
+  height: 7px;
+  width: 100%;
+  position: relative;
+  background: #f0f0f0;
+  margin: 8px 0 3px 0;
+  border-radius: 30px;
+  display: none;
+  pointer-events: none;
+}
+.polling label .progress:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  background: #ccc;
+  width: calc(1% * var(--w));
+  border-radius: inherit;
+  transition: all 0.2s ease;
+}
+.polling label.selected .progress::after{
+  background: #fff;
+}
+.polling label.selectall .progress,
+.polling label.selectall .row .percent{
+  display: block;
+}
+.polling input[type="radio"],
+.polling input[type="checkbox"]{
+  display: none;
+}

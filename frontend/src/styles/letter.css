@@ -1,0 +1,58 @@
+.letter .h1-tag{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.letter input{
+    width: 700px;
+}
+.letter .table{
+    width:1000px;
+    height:300px;
+    margin-left: 300px;
+}
+.letter textarea{
+    width:700px;
+}
+.letter .form-content-section{
+    width: 2%;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+@media screen and (max-width: 600px){
+    .letter .form-content-section{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .letter .form-content-section{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .letter .form-group{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .letter .btn-primary{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 800px){
+    .letter .form-group{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .letter .btn-primary{
+        margin-left: 20px;
+    }
+}
+.letter .myclass{
+    border-radius: 20px;
+}
